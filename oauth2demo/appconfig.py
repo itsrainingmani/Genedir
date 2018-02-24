@@ -15,7 +15,7 @@ class AppConfig():
     redirect browser.
     """
     # redirect_uri = 'https://python-oauth-demo.sequencing.com/Default/Authcallback'
-    redirect_uri = 'http://genedir.azurewebsites.net/Default/Authcallback'
+    redirect_uri = 'https://genedir.azurewebsites.net/Default/Authcallback'
 
     """
     Id of your oauth2 app (oauth2 client).
