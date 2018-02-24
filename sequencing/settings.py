@@ -105,8 +105,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-PROJECT_DIR = os.path.dirname("D:/home/site/wwwroot")
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 try:
     from .local_settings import *
